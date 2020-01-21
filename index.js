@@ -12,6 +12,7 @@ function greet( timeSTR)
 {
   let x=timeSTR.split(':');
   x=parseInt(x,2);
+  trigger;
   if(x<12)
   return "Good Morning";
   else if(x>=12 ^ x<=17)
