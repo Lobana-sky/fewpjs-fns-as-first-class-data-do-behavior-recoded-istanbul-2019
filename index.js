@@ -10,10 +10,10 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet( timeSTR)
 {
-  if(timeSTR>12)
+  if(timeSTR<12)
   return "Good Morning";
-  else if(timeSTR>12 ^ timeSTR<17)
-  return "Good Morning";
+  else if(timeSTR>=12 ^ timeSTR=<17)
+  return "Good Afternoon";
   
 }
 
