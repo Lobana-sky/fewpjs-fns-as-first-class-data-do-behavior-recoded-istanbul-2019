@@ -11,6 +11,7 @@ function handleClick(e) {
 function greet( timeSTR)
 {
   let x=timeSTR.split(':');
+  x=x.parseInt(x);
   if(x<12)
   return "Good Morning";
   else if(x>=12 ^ x<=17)
