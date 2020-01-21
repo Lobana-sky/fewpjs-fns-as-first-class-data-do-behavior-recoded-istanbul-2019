@@ -8,6 +8,10 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-
+function greet( timeSTR)
+{
+  if()
+  return
+}
 
 /* Write your implementation of displayMessage() */
