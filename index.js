@@ -20,4 +20,9 @@ function greet( timeSTR)
   return "Good Evening";
 }
 
+function displayMessage(messa)
+{
+  
+}
+
 /* Write your implementation of displayMessage() */
