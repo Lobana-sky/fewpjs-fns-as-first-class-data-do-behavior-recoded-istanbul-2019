@@ -12,7 +12,7 @@ function greet( timeSTR)
 {
   let x=timeSTR.split(':');
   x=parseInt(x,2);
-  document.getElementById('vvi').innerText=x.to.String();
+  document.getElementById('vvi').innerText=x.toString();
   if(x<12)
   return "Good Morning";
   else if(x>=12 ^ x<=17)
