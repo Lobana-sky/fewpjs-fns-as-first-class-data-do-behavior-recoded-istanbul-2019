@@ -15,7 +15,7 @@ function greet( timeSTR)
   document.getElementById('vvi').innerText=x.toString();
   if(x<12)
   return "Good Morning";
-  else if(x>=12 ^ x<=17)
+  else if(x>=12 & x<=17)
   return "Good Afternoon";
   else
   return "Good Evening";
