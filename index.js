@@ -17,7 +17,6 @@ function greet( timeSTR)
   return "Good Afternoon";
   else
   return "Good Evening";
-  
 }
 
 /* Write your implementation of displayMessage() */
