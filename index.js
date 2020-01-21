@@ -11,7 +11,10 @@ function handleClick(e) {
 function greet( timeSTR)
 {
   if(timeSTR>12)
-  return ""
+  return "Good Morning";
+  else if(timeSTR>12 ^ timeSTR<17)
+  return "Good Morning";
+  
 }
 
 /* Write your implementation of displayMessage() */
