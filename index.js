@@ -15,7 +15,7 @@ function greet( timeSTR)
   else if(timeSTR>=12 ^ timeSTR<=17)
   return "Good Afternoon";
   else
-  return "";
+  return "Good Evening";
   
 }
 
