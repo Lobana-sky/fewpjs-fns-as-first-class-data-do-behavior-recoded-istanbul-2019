@@ -22,7 +22,7 @@ function greet( timeSTR)
 
 function displayMessage(messa)
 {
-  
+  const timeString = document.getElementById('time').value
 }
 
 /* Write your implementation of displayMessage() */
