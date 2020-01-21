@@ -10,9 +10,10 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet( timeSTR)
 {
-  if(timeSTR<12)
+  let x=timeSTR.to.Number;
+  if(x<12)
   return "Good Morning";
-  else if(timeSTR>=12 ^ timeSTR<=17)
+  else if(x>=12 ^ x<=17)
   return "Good Afternoon";
   else
   return "Good Evening";
