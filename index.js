@@ -11,7 +11,7 @@ function handleClick(e) {
 function greet( timeSTR)
 {
   let x=timeSTR.split(':');
-  x=parseInt(x,2);
+  x=parseInt(x);
   document.getElementById('vvi').innerText=x.toString();
   if(x<12)
   return "Good Morning";
