@@ -10,8 +10,8 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet( timeSTR)
 {
-  if()
-  return
+  if(timeSTR>12)
+  return ""
 }
 
 /* Write your implementation of displayMessage() */
